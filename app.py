@@ -449,7 +449,8 @@ def main():
             with col1:
                 fig_scatter1 = px.scatter(df_clean, x='building_area (m2)', y='price_in_miliar',
                                           title='Harga vs Luas Bangunan',
-                                          color_discrete_sequence=['#ff7f0e'])
+                                          color_discrete_sequence=['#ff7f0e'],
+                                          trendline=None)
                 fig_scatter1.update_layout(
                     xaxis_title='Luas Bangunan (m²)',
                     yaxis_title='Harga (Miliar Rp)',
@@ -461,7 +462,8 @@ def main():
             with col2:
                 fig_scatter2 = px.scatter(df_clean, x='land_area', y='price_in_miliar',
                                           title='Harga vs Luas Tanah',
-                                          color_discrete_sequence=['#2ca02c'])
+                                          color_discrete_sequence=['#2ca02c'],
+                                          trendline=None)
                 fig_scatter2.update_layout(
                     xaxis_title='Luas Tanah (m²)',
                     yaxis_title='Harga (Miliar Rp)',
