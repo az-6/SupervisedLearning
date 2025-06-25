@@ -115,7 +115,7 @@ body {
 st.markdown("""
 <div class="main-header">
     <h1>🏠 Dashboard Prediksi Harga Rumah Bandung</h1>
-    <p>Powered by Streamlit & Ngrok | Made by Itmam</p>
+    <p>Powered by Streamlit & Ngrok | Made by Kelompok 3</p>
 </div>
 """, unsafe_allow_html=True)
 
