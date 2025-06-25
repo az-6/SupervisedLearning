@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -450,7 +449,6 @@ def main():
             with col1:
                 fig_scatter1 = px.scatter(df_clean, x='building_area (m2)', y='price_in_miliar',
                                           title='Harga vs Luas Bangunan',
-                                          trendline="ols",
                                           color_discrete_sequence=['#ff7f0e'])
                 fig_scatter1.update_layout(
                     xaxis_title='Luas Bangunan (m²)',
@@ -463,7 +461,6 @@ def main():
             with col2:
                 fig_scatter2 = px.scatter(df_clean, x='land_area', y='price_in_miliar',
                                           title='Harga vs Luas Tanah',
-                                          trendline="ols",
                                           color_discrete_sequence=['#2ca02c'])
                 fig_scatter2.update_layout(
                     xaxis_title='Luas Tanah (m²)',
