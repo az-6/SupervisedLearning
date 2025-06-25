@@ -296,8 +296,8 @@ def main():
         st.sidebar.markdown("---")
         st.sidebar.info("Dashboard ini dapat diakses melalui URL publik Ngrok.")
 
-        st.sidebar.markdown("[🔗 Supervised Learning](https://d796-35-198-208-86.ngrok-free.app/)")
-        st.sidebar.markdown("[🔗 Unsupervised Learning](https://1813-34-126-149-228.ngrok-free.app/)")
+        st.sidebar.markdown("[🔗 Supervised Learning](https://supervisedlearning-2klury893s9kkjhyusenni.streamlit.app/)")
+        st.sidebar.markdown("[🔗 Unsupervised Learning](https://unsupervisedlearning-bap5f5pbvjdwhqraeekmjp.streamlit.app/)")
 
 
         # Create tabs
