@@ -6,4 +6,4 @@ xgboost
 matplotlib
 seaborn
 plotly
-statsmodels==0.14.0
+statsmodels
