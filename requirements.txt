@@ -6,5 +6,5 @@ xgboost
 matplotlib
 seaborn
 plotly
-scipy==1.10.1
-statsmodels==0.14.0
+scipy
+statsmodels
